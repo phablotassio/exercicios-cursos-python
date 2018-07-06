@@ -1,0 +1,6 @@
+nome = input('Qual seu nome')
+idade = int(input('Qual Sua Idade'))
+altura = float(input('Qual Seu sua altura'))
+cpf = input ('Qual Seu cpf')
+end = input ('Qual Seu Endereço')
+print ('{} possui {} anos, tem {:.2f} de altura cadastrado com cpf {} e mora {}'.format(nome,idade,altura,cpf,end))
